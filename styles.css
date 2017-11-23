@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(ellipse at center, #F1E0B1 0%, #7DBEA5 100%); }
+
+#quiz, #quizFrame, footer, #czas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#quiz, #quizFrame {
+  color: #5A392B;
+  font-family: Lato, sans-serif;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  line-height: 2em;
+  font-size: 1em; }
+
+#quiz {
+  font-size: 3em;
+  top: 30%;
+  animation-name: tlo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes tlo {
+  from {
+    color: #5A392B; }
+  to {
+    color: #F26C1A; } }
+#quizFrame {
+  box-sizing: border-box;
+  padding: 30px;
+  border: 2px solid #5A392B;
+  border-radius: 10px;
+  background-color: #7DBEA5;
+  height: 25%;
+  min-height: 150px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4); }
+
+#tresc {
+  text-align: center;
+  margin: auto;
+  width: 400px; }
+
+.start {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 30px; }
+
+footer {
+  font-size: 0.6em;
+  font-family: Lato, sans-serif;
+  color: #5A392B;
+  top: 95%; }
+
+#czas {
+  top: 90%;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  height: 5px;
+  width: 500px;
+  background: #F1E0B1;
+  animation-name: example;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  display: none; }
+
+@keyframes example {
+  0% {
+    width: 0px; }
+  100% {
+    width: 500px; } }
+#id1 {
+  display: none; }
+
+#id2 {
+  display: none; }
+
+#id3 {
+  display: none; }
+
+#id4 {
+  display: none; }
+
+#id5 {
+  display: none; }
+
+#id6 {
+  display: none; }
+
+#id7 {
+  display: none; }
+
+#id8 {
+  display: none; }
+
+#id9 {
+  display: none; }
+
+#id10 {
+  display: none; }
+
+.spacja {
+  margin: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
